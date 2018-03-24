@@ -136,7 +136,7 @@ public class DownloadTask {
         pDialog.setIndeterminate(false);
         pDialog.setMax(100);
         pDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-        pDialog.setCancelable(true);
+        pDialog.setCancelable(false);
         pDialog.show();
         Log.d("Response", String.valueOf(dialogDownloadProgress));
     }
